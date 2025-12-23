@@ -4,6 +4,7 @@ numpy==1.26.4
 torch==2.9.1
 sentence-transformers==2.2.2
 transformers==4.57.3
+huggingface_hub==0.14.1
 scikit-learn==1.5.0
-scipy>=1.11.4
+scipy==1.11.4
 deep-translator==1.11.4
