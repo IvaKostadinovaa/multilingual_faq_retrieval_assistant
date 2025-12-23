@@ -24,10 +24,10 @@ You can try the FAQ Retrieval Assistant live at:
 2. All FAQ questions are converted into vector embeddings using a multilingual Sentence Transformer model.
 3. When a user asks a question:
    - The question is embedded using the same model.
-   - Cosine similarity is calculated between the user question and all FAQ questions.
-   - The most similar FAQ question is selected.
-4. If the similarity score is high enough, the corresponding answer is returned. Otherwise, a fallback message is shown.
-5. Automatically translate answers to Macedonian if selected and show a confidence score.
+   -  Cosine similarity is calculated between the user question and all FAQ questions.
+   -  The most similar FAQ question is selected.
+5. If the similarity score is high enough, the corresponding answer is returned. Otherwise, a fallback message is shown.
+6. Automatically translate answers to Macedonian if selected and show a confidence score.
 
 ## Technologies Used
 - Python
