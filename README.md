@@ -48,6 +48,7 @@ faq_retrieval_assistant/
 │   ├── app.py
 │   └── functions.py
 ├── requirements.txt
+├── explanation.pdf
 ├── README.md
 └── .gitignore
 ```
