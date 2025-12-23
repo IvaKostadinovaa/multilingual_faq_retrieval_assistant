@@ -11,7 +11,7 @@ The assistant supports:
 
 ## Demo
 You can try the FAQ Retrieval Assistant live at:
-[**Live Demo**](multilingual-faq-retrieval-assistant.streamlit.app)
+[**Live Demo**](https://multilingual-faq-retrieval-assistant.streamlit.app/)
 
 ### Screenshots
 
