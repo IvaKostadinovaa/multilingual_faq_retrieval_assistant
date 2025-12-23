@@ -107,9 +107,11 @@ http://localhost:8501
 
 ### Future UI/UX Enhancements
 **Proactive suggested questions**
+
 After an answer is returned, the system could suggest related follow-up questions based on similar FAQs. This would help users continue the conversation more easily, reduce friction, and improve the overall support experience.
 
 **Voice-to-text support**
+
 Voice-to-text input could be integrated to improve accessibility and allow hands-free interaction, which would be especially useful for mobile users.
 
 
