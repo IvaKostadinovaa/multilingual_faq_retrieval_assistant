@@ -1,12 +1,17 @@
 import streamlit as st
 from functions import *
+import os
+
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+DATASET_PATH = os.path.join(BASE_DIR, "data", "faq_dataset.csv")
+
 
 language_choice = st.selectbox(
     "Select language / Избери јазик :",
     ["English", "Macedonian"]
 )
 
-questions, answers = dataset_loading("../data/faq_dataset.csv")
+questions, answers = dataset_loading("DATASET_PATH")
 if not questions or not answers:
     st.stop()
 
