@@ -11,7 +11,7 @@ language_choice = st.selectbox(
     ["English", "Macedonian"]
 )
 
-questions, answers = dataset_loading("DATASET_PATH")
+questions, answers = dataset_loading(DATASET_PATH)
 if not questions or not answers:
     st.stop()
 
