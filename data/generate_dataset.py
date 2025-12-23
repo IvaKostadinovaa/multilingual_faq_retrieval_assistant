@@ -1,0 +1,29 @@
+import pandas as pd
+
+data = [
+    ("How do I create an account?", "Click 'Sign Up' and follow the instructions to create a new account."),
+    ("How do I reset a forgotten password?", "Click the 'Forgot Password' link on the login page and enter your email to receive a secure reset link."),
+    ("How do I update my account information?", "Log in to your account, go to 'Account Settings', edit your details, and click 'Save'."),
+    ("Why is my account locked?", "Accounts lock for 30 minutes after multiple failed attempts. You can unlock it instantly by completing the 'Forgot Password' process."),
+    ("Why didn't I get my verification code?", "Check your spam folder and ensure your device's time and date are set to 'Automatic'. If it still fails, use a backup code."),
+    ("What should I do if I suspect my account has been hacked?", "Immediately reset your password, enable two-factor authentication, and contact customer support."),
+    ("Is my personal information safe?", "Yes, we use the latest security technology and follow strict privacy laws to keep your data private."),
+    ("Why am I not receiving the password reset email?", "Check your spam or junk folder. If it’s not there, ensure you entered the correct email associated with your account. You can also try requesting the password reset again or contact support for help."),
+    ("What payment methods do you accept?", "We accept credit/debit cards, PayPal, and bank transfers."),
+    ("How do I update my payment method?", "Log in to your account, go to 'Billing Settings', and select 'Add/Edit Payment Method' to update your card or digital wallet."),
+    ("Where can I download my invoice or receipt?", "Access your 'Billing History' tab to view and download PDF copies of all past transactions."),
+    ("Can I get a refund for an accidental charge?", "Most refunds can be requested via our Refund Portal within 30 days if the service has not been used."),
+    ("What should I do if my payment fails?", "If your payment fails, check your payment details, ensure sufficient funds, try a different method, or contact customer support."),
+    ("How do I upgrade my subscription?", "Go to 'Subscription Settings' in your account and select the plan you want to upgrade to."),
+    ("How do I downgrade my subscription?", "Go to 'Subscription Settings' in your account and select a lower-tier plan to downgrade your subscription."),
+    ("How do I cancel my subscription?", "Go to 'Billing' in your settings and click 'Cancel'. You will keep your access until your current month ends."),
+    ("Is there a mobile app available?", "Yes, you can download the official app for iOS or Android."),
+    ("Where can I find detailed product information?", "Detailed product information can be found on the product page, including features, specifications, and usage details."),
+    ("Can I request a custom product or service?", "Yes, you can request a custom product or service. Please contact customer support with your requirements, and we’ll assist you."),
+    ("How can I contact customer support?", "Contact support via email, live chat, or phone during business hours."),
+]
+
+df=pd.DataFrame(data, columns=['question', 'answer'])
+df.to_csv('faq_dataset.csv', index=False)
+
+
